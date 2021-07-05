@@ -33,3 +33,7 @@
 .set-line-width button {
     padding: 5px;
 }
+
+.info{
+    position: absolute;
+}
