@@ -3,7 +3,7 @@ import React from "react"
 
 function Undo(){
         return(
-            <button id="undo">Undo</button>
+            <button id="undo" className="style">Undo</button>
         )
     }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Clear(){
     return (
-        <button id="clear">Clear</button>
+        <button id="clear" className="style">Clear</button>
     )
 }
 

@@ -1,12 +1,5 @@
 import React, { createContext } from "react"
 import './style.css'
-// import SetColor from "../container/SetColor";
-// import Undo from '../container/Undo'
-// import SetLineWidth from "../container/SetLineWidth"
-// import Clear from "../container/Clear";
-// import LineTool from "../container/LineTool";
-
-// import Pencil from "../container/Pencil";
 
 
 class Board extends React.Component

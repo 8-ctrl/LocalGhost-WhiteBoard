@@ -18,29 +18,29 @@ class Container extends React.Component
     render(){
         return(
             <div className="container">
-                <div className="adjustments">
-                <div className="color-picker-container">
+                <div className="bottom-bar">
+                <div className="color-picker-container resize">
                     <SetColor/>
                     
                 </div>
 
-                <div className="Undo-btn">
+                <div className="Undo-btn resize">
                     <Undo/>
                 </div>
-                <div className="Redo-btn">
+                <div className="Redo-btn resize">
                     <Pencil/>
                 </div>
-                <div className="setlinewidth">
+                <div className="setlinewidth resize">
                     <SetLineWidth/>
                 </div>
-                <div className="Clear-btn">
+                <div className="Clear-btn resize">
                     <Clear/>
                 </div>
-                <div className="Line-btn">
+                <div className="Line-btn resize">
                     <LineTool/>
                 </div>
                 </div>
-                <div className="board-container">
+                <div className="board-container resize">
                     <Board></Board>
                 </div>
 
